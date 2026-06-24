@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Us — HoopZone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="ball">🏀</span> Hoop<span class="logo-accent">Zone</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-burger"><span></span><span></span><span></span></label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fundamentals.html">Fundamentals</a></li>
+          <li><a href="positions.html">Positions</a></li>
+          <li><a href="contact.html" class="nav-cta active">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Get On The Court</p>
+      <h1>Join the Community</h1>
+      <p class="page-hero-sub">Drop your details and we'll send weekly drills,
+         training tips, and game breakdowns straight to your inbox.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / JOIN ===== -->
+  <section class="section">
+    <div class="container join">
+      <div class="join-text">
+        <p class="kicker">We'd Love to Hear From You</p>
+        <h2>Sign Up &amp; Get Coaching</h2>
+        <p class="lead">Fields marked with <span class="req-star">*</span> are
+           required. Tell us about your game and we'll tailor the tips we send.</p>
+        <ul class="check-list">
+          <li>Weekly drills matched to your level</li>
+          <li>Film breakdowns and strategy notes</li>
+          <li>Early access to community scrimmages</li>
+        </ul>
+      </div>
+
+      <form class="join-form" action="#" method="post">
+        <label>
+          Full Name <span class="req-star">*</span>
+          <input type="text" name="name" placeholder="Jordan Carter" required />
+        </label>
+        <label>
+          Email <span class="req-star">*</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Phone <span class="optional">(optional)</span>
+          <input type="tel" name="phone" placeholder="+1 555 000 1234" />
+        </label>
+        <label>
+          Skill Level <span class="req-star">*</span>
+          <select name="level" required>
+            <option value="">Choose one…</option>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+          </select>
+        </label>
+        <label>
+          Favorite Position <span class="req-star">*</span>
+          <select name="position" required>
+            <option value="">Choose one…</option>
+            <option>Point Guard</option>
+            <option>Shooting Guard</option>
+            <option>Small Forward</option>
+            <option>Power Forward</option>
+            <option>Center</option>
+          </select>
+        </label>
+        <label>
+          Your Goal <span class="req-star">*</span>
+          <textarea name="goal" rows="4" placeholder="What do you want to improve?" required></textarea>
+        </label>
+        <label class="checkbox-row">
+          <input type="checkbox" name="agree" required />
+          <span>I agree to receive coaching emails from HoopZone <span class="req-star">*</span></span>
+        </label>
+        <button type="submit" class="btn btn-primary full">Sign Me Up</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo"><span class="ball">🏀</span> Hoop<span class="logo-accent">Zone</span></span>
+        <p>Your court-side guide to learning, training, and loving the game.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Learn</h4>
+          <a href="index.html">Home</a>
+          <a href="fundamentals.html">Fundamentals</a>
+          <a href="positions.html">Positions</a>
+        </div>
+        <div>
+          <h4>Train</h4>
+          <a href="fundamentals.html">Drills</a>
+          <a href="contact.html">Join Us</a>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">X / Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 HoopZone. Built for the love of the game.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
